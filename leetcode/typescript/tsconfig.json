@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": ["es2015", "dom"],
+    "target": "es2015"
   }
 }
